@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:elevation="6dp"
+    card_view:cardCornerRadius="16dp"
+    card_view:cardElevation="6dp"
+    card_view:cardBackgroundColor="#FFFFFF"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Subject (Title) -->
+        <TextView
+            android:id="@+id/txtLectureName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Subject: Mathematics"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#007BB5" />
+
+        <!-- Class + Section -->
+        <TextView
+            android:id="@+id/txtClassSection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Class: 10 | Section: A"
+            android:textSize="16sp"
+            android:textColor="#444444"
+            android:layout_marginTop="8dp" />
+
+        <!-- Timetable Name -->
+        <TextView
+            android:id="@+id/txtTimetable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Timetable: Weekly Timetable"
+            android:textSize="16sp"
+            android:textColor="#444444"
+            android:layout_marginTop="4dp" />
+
+        <!-- Time Range -->
+        <TextView
+            android:id="@+id/txtTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Time: 10:00 AM - 11:00 AM"
+            android:textSize="16sp"
+            android:textColor="#444444"
+            android:layout_marginTop="4dp" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

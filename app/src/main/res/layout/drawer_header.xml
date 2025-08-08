@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+android:id="@+id/nav_header"
+android:layout_width="match_parent"
+android:layout_height="100dp"
+    android:background="#FFC107"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:gravity="bottom">
+
+<TextView
+android:id="@+id/tvWelcome"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Welcome Admin"
+android:textStyle="bold"
+android:textSize="20sp"
+android:textColor="#ffffff" />
+
+    </LinearLayout>

@@ -1,0 +1,7 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Yellow background when item is pressed (hover) -->
+    <item android:drawable="@color/yellow" android:state_pressed="true"/>
+
+    <!-- Transparent background normally -->
+    <item android:drawable="@android:color/transparent"/>
+</selector>

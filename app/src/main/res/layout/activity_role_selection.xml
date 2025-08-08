@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutUserSelection"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@color/colorBackground">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login As"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/btnAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Admin"
+        android:textColor="@color/whiteColor"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_marginBottom="16dp"
+        android:padding="14dp"
+        android:fontFamily="sans-serif-medium"
+        android:elevation="4dp"
+        android:stateListAnimator="@null"
+        android:outlineProvider="background"
+        android:clipToOutline="true" />
+
+    <Button
+        android:id="@+id/btnTeacher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Teacher"
+        android:textColor="@color/whiteColor"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_marginBottom="16dp"
+        android:padding="14dp"
+        android:fontFamily="sans-serif-medium"
+        android:elevation="4dp"
+        android:stateListAnimator="@null"
+        android:outlineProvider="background"
+        android:clipToOutline="true" />
+
+    <Button
+        android:id="@+id/btnStudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student"
+        android:textColor="@color/whiteColor"
+        android:backgroundTint="@color/colorPrimary"
+        android:padding="14dp"
+        android:fontFamily="sans-serif-medium"
+        android:elevation="4dp"
+        android:stateListAnimator="@null"
+        android:outlineProvider="background"
+        android:clipToOutline="true" />
+
+</LinearLayout>

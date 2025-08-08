@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:padding="24dp">
+
+    <!-- Fixed Title -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Teacher Registration"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#00A0E2"
+        android:gravity="center"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Scrollable Form -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <!-- Teacher ID -->
+            <EditText
+                android:id="@+id/edtTeacherId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Teacher ID"
+                android:padding="14dp"
+                android:background="@drawable/edittext_bg"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Designation -->
+            <EditText
+                android:id="@+id/edtDesignation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Designation"
+                android:padding="14dp"
+                android:background="@drawable/edittext_bg"
+                android:layout_marginBottom="16dp" />
+
+            <!-- First Name -->
+            <EditText
+                android:id="@+id/edtFirstName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="First Name"
+                android:padding="14dp"
+                android:background="@drawable/edittext_bg"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Last Name -->
+            <EditText
+                android:id="@+id/edtLastName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Last Name"
+                android:padding="14dp"
+                android:background="@drawable/edittext_bg"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Father's Name -->
+            <EditText
+                android:id="@+id/edtFatherName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Father's Name"
+                android:padding="14dp"
+                android:background="@drawable/edittext_bg"
+                android:layout_marginBottom="16dp" />
+
+            <!-- DOB -->
+            <EditText
+                android:id="@+id/edtDOB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Date of Birth (YYYY-MM-DD)"
+                android:inputType="date"
+                android:padding="14dp"
+                android:background="@drawable/edittext_bg"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Qualification -->
+            <EditText
+                android:id="@+id/edtQualification"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Qualification"
+                android:padding="14dp"
+                android:background="@drawable/edittext_bg"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Experience -->
+            <EditText
+                android:id="@+id/edtExperience"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Experience"
+                android:padding="14dp"
+                android:background="@drawable/edittext_bg"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Phone -->
+            <EditText
+                android:id="@+id/edtPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Phone Number"
+                android:inputType="phone"
+                android:padding="14dp"
+                android:background="@drawable/edittext_bg"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Email -->
+            <EditText
+                android:id="@+id/edtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:padding="14dp"
+                android:background="@drawable/edittext_bg"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Address -->
+            <EditText
+                android:id="@+id/edtAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Address"
+                android:padding="14dp"
+                android:background="@drawable/edittext_bg"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Joining Date -->
+            <EditText
+                android:id="@+id/edtJoiningDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Joining Date (YYYY-MM-DD)"
+                android:inputType="date"
+                android:padding="14dp"
+                android:background="@drawable/edittext_bg"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Password -->
+            <EditText
+                android:id="@+id/edtPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:padding="14dp"
+                android:background="@drawable/edittext_bg"
+                android:layout_marginBottom="16dp" />
+
+            <!-- Confirm Password -->
+            <EditText
+                android:id="@+id/edtConfirmPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Confirm Password"
+                android:inputType="textPassword"
+                android:padding="14dp"
+                android:background="@drawable/edittext_bg"
+                android:layout_marginBottom="24dp" />
+
+            <!-- Register Button -->
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Register"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:padding="15dp"
+                android:backgroundTint="@color/blue"
+                android:layout_marginBottom="20dp" />
+
+            <!-- Already have account -->
+            <TextView
+                android:id="@+id/tvAlreadyAccount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Already have an account? Login"
+                android:textColor="@color/yellow"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:clickable="true"
+                android:focusable="true" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

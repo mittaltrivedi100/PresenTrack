@@ -1,0 +1,41 @@
+<!-- res/layout/activity_attendance_result.xml -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvResultTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Attendance Result"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp" />
+
+        <TableLayout
+            android:id="@+id/tableAttendance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"
+            android:background="#eeeeee"
+            android:padding="8dp" />
+
+        <Button
+            android:id="@+id/btnExportExcel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Export to Excel"
+            android:backgroundTint="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:padding="12dp"
+        android:layout_marginTop="16dp"
+            android:layout_gravity="end"/>
+
+    </LinearLayout>
+</ScrollView>
